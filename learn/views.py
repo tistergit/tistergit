@@ -9,4 +9,4 @@ from django.contrib.auth.decorators import login_required
 
 @login_required
 def hello(request):
-    return render_to_response('a.html')
+    return render_to_response('hello.html')
